@@ -67,11 +67,7 @@ K-Means Clustering
 
 Things Learned:
 - The elbow method that determines the Optimum Number of Clusters needed
-
 - WCSS (Within Cluster Sum of Squares) that calculates the distance between points in a cluster. The smaller the WCSS value, the better the number of clusters used
-
 - Standardize key values to obtain optimal clustering solution
-
 - Market Segementaion (Loyalty and Satisfaction) and Species Segmentation (Iris Dataset) to determine which number of clusters is optimal for different kind of datasets
-
 - Clustermap/Heatmap to create a dendrogram using seaborn
