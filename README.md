@@ -61,3 +61,17 @@ Things Learned:
 - Creating logit regression summary and understand the meaning of MLE(Maximum Likelihood Estimation), Log Likelihood, LL Null, LLR and Pseudo R Squared variables
 - Comparing prediction value and obtaining confusion matrix and accuracy score using sklearn
 - Binary predictor using numpy exponential function to predict the possible outcome event of the prediction
+
+### Day 9: 
+K-Means Clustering
+
+Things Learned:
+- The elbow method that determines the Optimum Number of Clusters needed
+
+- WCSS (Within Cluster Sum of Squares) that calculates the distance between points in a cluster. The smaller the WCSS value, the better the number of clusters used
+
+- Standardize key values to obtain optimal clustering solution
+
+- Market Segementaion (Loyalty and Satisfaction) and Species Segmentation (Iris Dataset) to determine which number of clusters is optimal for different kind of datasets
+
+- Clustermap/Heatmap to create a dendrogram using seaborn
