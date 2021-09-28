@@ -2,8 +2,7 @@
 ## Day 1-22 (Python: Basics, Machine Learning & Deep Learning) 
 
 ### Day 1:
-"Python Variables, Operators and Conditional Statements" 
-Today marks the start of my Day 1 of #66daysofdata and i learned these topics from 365 careers' udemy course
+Python Variables, Operators and Conditional Statements
 
 - Learned about python data types such as strings, integer, float and boolean.
 - Also learned about arithmetic operators, comparison operators, and logical operators
@@ -11,7 +10,7 @@ Today marks the start of my Day 1 of #66daysofdata and i learned these topics fr
 - Learned conditional statements such as if, elif and else statements
 
 ### Day 2:
-"Python Functions, Sequences,Iterations":
+Python Functions, Sequences,Iterations
 
 - Learned about define functions, built in functions such as max,min,abs,pow,sum,round and len
 - Also learnt about lists, how to append, extend,delete and indexing a list with slicing method
@@ -71,3 +70,24 @@ Things Learned:
 - Standardize key values to obtain optimal clustering solution
 - Market Segementaion (Loyalty and Satisfaction) and Species Segmentation (Iris Dataset) to determine which number of clusters is optimal for different kind of datasets
 - Clustermap/Heatmap to create a dendrogram using seaborn
+
+### Day 10:
+Linear Algebra (Matrix) & Intro to Neural Networks
+
+Things Learned:
+- Transposing, Dot Product of Scalars, Vectors and Matrix
+
+- Differences in Machine Learning types: Supervised, Unsupervised, Reinforcement Learning 
+
+- L2 Norm and Cross-Entropy Loss function for Regression and Classification problems, and Gradient Descent, Learning Rate for Optimization functions
+
+- NumPy randomize uniform function to generate artificial input data in the form of arrays
+
+- Key codes:
+np.array([])
+np.sum()
+np.dot()
+np.random.uniform(low,high,size)
+np.column_stack()
+a.T
+a.reshape()
