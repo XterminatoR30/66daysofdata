@@ -91,3 +91,25 @@ np.random.uniform(low,high,size)
 np.column_stack()
 a.T
 a.reshape()
+
+### Day 11:
+Tensorflow Sequential Model
+
+Things Learned:
+- Storing NumPy arrays in .npz file format
+- Creating machine learning model using Keras Sequential method and compile it using SGD optimizer and Mean Squared Error loss
+- Differences in verbose values:
+  * Verbose=0 -> Silent or No Output
+  * Verbose=1-> Displaying Progress Bar
+  * Verbose=2-> Display only Loss/ Accuracy Value without Progress Bar
+- Comparing predicted input values that has been trained with the targets
+- Lower Learning Rate (0.001-0.005) value might increase the speed the neural network to learn the model, as i tried experimenting different values of learning rate using Stochastic Gradient Descent (Result might differ using different optimizer)
+- Key codes:
+np.savez()
+np.load()
+tf.keras.Sequential()
+tf.keras.layers.Dense()
+tf.random_uniform_initializer(minval,maxval)
+model.compile(optimizer,loss)
+model.fit(epochs,verbose)
+model.predict_on_batch()
