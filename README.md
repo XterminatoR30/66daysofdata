@@ -121,5 +121,5 @@ Things Learned:
 - Theory of differences in activation functions and their usage (Sigmoid, TanH, ReLu, Softmax)
 - SGD (Stochastic Gradient Descent) which is a optimizer that increases computational efficiency as it splits the dataset into mini batches and will reach the global minimum much faster with the help of Momentum
 - Advanced Adaptive Learning Rate Scheduler (Optimization Function) such as AdaGrad, RMSProp and Adam. Adam is most commonly used as it combines both Momentum and RMSProp together.
-- Numerical and Categorical data Pre-Processing such as PCA (Principle Component Analysis) amd Whitening
+- Numerical and Categorical data Pre-Processing such as PCA (Principle Component Analysis), Whitening, One Hot Encoding and Binary Encoding
 - Building a Convolutional Neural Network model with 1 hidden layer for MNIST dataset and managed to got 91-92% test and training accuracy.
