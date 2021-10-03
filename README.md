@@ -103,7 +103,7 @@ Things Learned:
 - Numerical and Categorical data Pre-Processing such as PCA (Principle Component Analysis), Whitening, One Hot Encoding and Binary Encoding
 - Building a Convolutional Neural Network model with 1 hidden layer for MNIST dataset and managed to got 91-92% test and training accuracy.
 
-### Day 14:
+### Day 14-15:
 Feed-Forward Multi Layer Perceptron
 
 Things Learned:
