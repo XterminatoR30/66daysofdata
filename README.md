@@ -76,21 +76,9 @@ Linear Algebra (Matrix) & Intro to Neural Networks
 
 Things Learned:
 - Transposing, Dot Product of Scalars, Vectors and Matrix
-
 - Differences in Machine Learning types: Supervised, Unsupervised, Reinforcement Learning 
-
 - L2 Norm and Cross-Entropy Loss function for Regression and Classification problems, and Gradient Descent, Learning Rate for Optimization functions
-
 - NumPy randomize uniform function to generate artificial input data in the form of arrays
-
-- Key codes:
-np.array([])
-np.sum()
-np.dot()
-np.random.uniform(low,high,size)
-np.column_stack()
-a.T
-a.reshape()
 
 ### Day 11:
 Tensorflow Sequential Model
@@ -104,15 +92,6 @@ Things Learned:
   * Verbose=2-> Display only Loss/ Accuracy Value without Progress Bar
 - Comparing predicted input values that has been trained with the targets
 - Lower Learning Rate (0.001-0.005) value might increase the speed the neural network to learn the model, as i tried experimenting different values of learning rate using Stochastic Gradient Descent (Result might differ using different optimizer)
-- Key codes:
-np.savez()
-np.load()
-tf.keras.Sequential()
-tf.keras.layers.Dense()
-tf.random_uniform_initializer(minval,maxval)
-model.compile(optimizer,loss)
-model.fit(epochs,verbose)
-model.predict_on_batch()
 
 ### Day 12-13:
 DNN: Activation function, Optimizer function, MNIST Classification
@@ -123,3 +102,18 @@ Things Learned:
 - Advanced Adaptive Learning Rate Scheduler (Optimization Function) such as AdaGrad, RMSProp and Adam. Adam is most commonly used as it combines both Momentum and RMSProp together.
 - Numerical and Categorical data Pre-Processing such as PCA (Principle Component Analysis), Whitening, One Hot Encoding and Binary Encoding
 - Building a Convolutional Neural Network model with 1 hidden layer for MNIST dataset and managed to got 91-92% test and training accuracy.
+
+### Day 14:
+Feed-Forward Multi Layer Perceptron
+
+Things Learned:
+1. Audiobook Dataset:
+- Preprocess dataset to remove or delete rows in a dataset by using np.delete() and append the dataset that are used into an empty array list
+- Standardize the inputs using preprocessing.scale() to equalize the weight of higher value and the lower value in the input dataset
+- Splitting training, validation and test set to 80-10-10 ratio and save the dataset into a .npz file format using np.savez() ]
+- Building a Feed Forward Multi Layer Perceptron Sequential model with 1 input layer, 2 hideen layers and 1 output layer using Adam Optimizer and Sparse Categorical Crossentropy Loss function. (Some overfitting spotted)
+- Applying earlystopping with patience value of 10 to the model to prevent overfitting by stopping at a certain epoch or iteration when there's no improvement in validation accuracy or validation loss
+
+2. MNIST:
+- Using LabelBinarizer to turn all integer classes (0-9) to a One-Hot Encoded column vector [1,0,0,0,0,0,0,0,0]
+- Creating a classification report of all MNIST number classes
