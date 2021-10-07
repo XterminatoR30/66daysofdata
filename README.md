@@ -117,3 +117,12 @@ Things Learned:
 2. MNIST:
 - Using LabelBinarizer to turn all integer classes (0-9) to a One-Hot Encoded column vector [1,0,0,0,0,0,0,0,0]
 - Creating a classification report of all MNIST number classes
+
+### Day 16-18:
+Absenteeism Dataset PreProcessing, Logistic Regression Model and Visualizing in Tableau
+
+- Absenteeism data focuses on filtering individuals who is absent during work hours for more than the 'Median' absent hours
+
+- Summary table that consists of variables name, coefficient value and odd values (Weights) can determine whether or not a variable is a significant contributor of an individual being absent during working hours
+
+- Transposing and Standardizing coefficient variable obtained by Logistic Regression and the Exponential of the standardized coefficient helps to determine which variable is the main factor for an individual to be absent during work hours
