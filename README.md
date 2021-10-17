@@ -141,9 +141,10 @@ Things Learned:
 
 ## Day 23-32 (MySQL) 
 ### Day 23-25:
-CRUD (Create, Read, Update, Delete)
+MySQL CRUD(Create, Read, Update, Delete) & String Functions
 
 Things Learned:
 - Creating, Dropping, Selecting Database
 - Inserting values into a Table, Assigning Primary Key, Not Null values, and Default values
 - Aliases and Deleting Specific Value in a Table
+- Combining Substring with Concatenate for several table columns
