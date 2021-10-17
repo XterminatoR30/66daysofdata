@@ -138,3 +138,11 @@ Things Learned:
 - Continuous Distributions: Normal, Student's-T, Chi-Squared, Exponential, Logistic Distributions
 - Mean, Median, Mode, Population/Sample Variance and Standard Deviations
 - Level of significance, Z-Score, T-Score and P-Values for Hypothesis Testing and Confidence Interval Estimates
+
+### Day 23-25:
+CRUD (Create, Read, Update, Delete)
+
+Things Learned:
+- Creating, Dropping, Selecting Database
+- Inserting values into a Table, Assigning Primary Key, Not Null values, and Default values
+- Aliases and Deleting Specific Value in a Table
