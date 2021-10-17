@@ -126,3 +126,15 @@ Absenteeism Dataset PreProcessing, Logistic Regression Model and Visualizing in 
 - Summary table that consists of variables name, coefficient value and odd values (Weights) can determine whether or not a variable is a significant contributor of an individual being absent during working hours
 
 - Transposing and Standardizing coefficient variable obtained by Logistic Regression and the Exponential of the standardized coefficient helps to determine which variable is the main factor for an individual to be absent during work hours
+
+### Day 19-22:
+It's been a long time not to update #66daysofdata progress.
+Been through so many re-learned theories and applications on probability and statistics.
+
+Things Learned:
+- Triple Nested Loops, List Comprehensions
+- Re-learning Probabiliity, Expected Value, Permutations, Variations and Combinations
+- Discrete Distributions: Uniform, Bernoulli, Binomial and Poisson Distributions
+- Continuous Distributions: Normal, Student's-T, Chi-Squared, Exponential, Logistic Distributions
+- Mean, Median, Mode, Population/Sample Variance and Standard Deviations
+- Level of significance, Z-Score, T-Score and P-Values for Hypothesis Testing and Confidence Interval Estimates
