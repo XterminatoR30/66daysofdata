@@ -139,6 +139,7 @@ Things Learned:
 - Mean, Median, Mode, Population/Sample Variance and Standard Deviations
 - Level of significance, Z-Score, T-Score and P-Values for Hypothesis Testing and Confidence Interval Estimates
 
+## Day 23-32 (MySQL) 
 ### Day 23-25:
 CRUD (Create, Read, Update, Delete)
 
