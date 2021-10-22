@@ -148,3 +148,6 @@ Things Learned:
 - Inserting values into a Table, Assigning Primary Key, Not Null values, and Default values
 - Aliases and Deleting Specific Value in a Table
 - Combining Substring with Concatenate for several table columns
+
+### Day 26-28:
+MySQL Distinct, Order By, Limit, Like, Aggregate Functions(Group By, Sum, Min, Max, Avg, Count), Sub Queries
