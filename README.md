@@ -151,3 +151,9 @@ Things Learned:
 
 ### Day 26-28:
 MySQL Distinct, Order By, Limit, Like, Aggregate Functions(Group By, Sum, Min, Max, Avg, Count), Sub Queries
+
+### Day 29-30:
+MySQL Advanced Data Types (Char, Decimal, Float, Double, Date, Time, Datetime, Timestamp), 
+Logical Operators (!=, >=, <=, &&, ||, %), Between, In, Case Statements, 
+Foreign Keys
+
