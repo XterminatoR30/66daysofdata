@@ -139,7 +139,7 @@ Things Learned:
 - Mean, Median, Mode, Population/Sample Variance and Standard Deviations
 - Level of significance, Z-Score, T-Score and P-Values for Hypothesis Testing and Confidence Interval Estimates
 
-## Day 23-32 (MySQL) 
+## Day 23-34 (MySQL) 
 ### Day 23-25:
 MySQL CRUD(Create, Read, Update, Delete) & String Functions
 
@@ -159,3 +159,6 @@ Foreign Keys
 
 ### Day 31-33:
 MySQL One to Many, Many to Many RDB(Relational Database), Instagram Clones DB Project
+
+### Day 34:
+MySQL Triggers (Used to inhibit certain actions before inserting/ after deleting a data in a query)
